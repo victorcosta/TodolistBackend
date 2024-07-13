@@ -2,10 +2,17 @@ import { Request, Response } from 'express';
 import Task from '../models/Task';
 
 interface AuthRequest extends Request {
-    user?: any;
+    user: {
+        id: String, 
+    }
+    body: {
+        title: string,
+        completed?: string
+    }
 }
 
 export const createTask = async (req: AuthRequest, res: Response) => {
+    console.log(req);
     const { title } = req.body;
     const userId = req.user.id;
     try {
