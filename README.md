@@ -1,8 +1,8 @@
 # TodoList Backend
 
-Essa é a o backend de uma aplicação MERN (MongoDB, Express, React, Node.js) de um TodoList
+This is the backend of a MERN (MongoDB, Express, React, Node.js) TodoList application.
 
-### Tecnologias utilizadas
+### Technologies used
 
 - NodeJs
 - MongoDB
@@ -10,23 +10,24 @@ Essa é a o backend de uma aplicação MERN (MongoDB, Express, React, Node.js) d
 - Jest
 
 
-### Executando o projeto
+### Running the project
 
-Para executar o projeto é necessário apenas rodar um comando:
 
 ```
 npm run dev
 ```
-
-Dessa forma sempre que houver uma mudança no código o servidor reiniciará e a mudança será carregada, caso queira deixar o servidor de forma estável, rode o comando:
+Runs the app in the development mode on http://localhost:5100/.
+The server will reload if you make edits.
 
 ```
 npm run start
 ```
 
-Para executar os testes projeto é necessário apenas rodar um comando:
+Runs the app and keep the server stable
+
 
 ```
 npm run test
 ```
 
+Launches the project tests.
